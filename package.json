@@ -1,0 +1,26 @@
+{
+  "name": "zendesk-wepback-theme",
+  "version": "1.0.0",
+  "description": "A zendesk theme boilerplate to create customizations with JS modern technologies",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arol/zendesk-guide-theme.git"
+  },
+  "keywords": [
+    "zendesk",
+    "guide",
+    "theme",
+    "webpack",
+    "react"
+  ],
+  "author": "Arol Viñolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arol/zendesk-guide-theme/issues"
+  },
+  "homepage": "https://github.com/arol/zendesk-guide-theme#readme"
+}
