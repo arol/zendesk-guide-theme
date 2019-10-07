@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/arol/zendesk-guide-theme#readme",
   "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6",
     "eslint": "^6.5.1",
     "eslint-plugin-json": "^1.4.0",
     "gulp": "^4.0.2",
