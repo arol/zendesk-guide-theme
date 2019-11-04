@@ -1,16 +1,15 @@
 {
-  "env": {
-    "browser": true,
-    "es6": true,
-    "jquery": true,
-    "node": true,
-    "mocha": true
-  },
-  "extends": "eslint:recommended",
+  "env": {},
+  "parser": "babel-eslint",
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "parserOptions": {
-    "sourceType": "module"
+    "sourceType": "module",
+    "ecmaVersion": 9,
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
-  "plugins": ["json"],
+  "plugins": ["json", "react"],
   "rules": {
     "indent": ["error", 2],
     "keyword-spacing": "error",
@@ -19,7 +18,12 @@
     "semi": "error",
     "space-before-blocks": "error",
     "space-before-function-paren": "error",
-    "no-undef": "off",
-    "no-unused-vars": "off"
+    "no-undef": "off"
+    // "no-unused-vars": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
